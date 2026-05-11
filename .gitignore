@@ -1,0 +1,45 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Rust
+target/
+**/*.rs.bk
+Cargo.lock.bak
+
+# Environment / Secrets
+.env
+.env.local
+.env.*.local
+.env.development
+.env.staging
+.env.production
+.env.mainnet
+.env.sepolia
+*.pem
+*.key
+id_rsa
+id_rsa.pub
+
+# Node / Next.js artifacts (stale)
+node_modules/
+.next/
+out/
+
+# Editors / IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+
+# OS / Misc
+Thumbs.db
+.cache/
+coverage/
+*.pid
